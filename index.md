@@ -18,14 +18,12 @@ Levels: **Beginner** (learned and practised in guided settings), **Working knowl
 
 | Skill | Level | Evidence |
 |---|---|---|
-| Python for network security automation (Scapy) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
-| Network discovery and ARP analysis | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
-| Validating tool results (Nmap host discovery, packet capture analysis) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
-| Safe, scoped security tooling (input validation, rate limits, dry-run mode) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
-| Containerised lab environments (Docker Compose) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
+| Virtual lab setup and network isolation (VirtualBox, Kali Linux, Metasploitable 2) | Working knowledge | [Virtual lab project](projects/virtual-lab-setup/) |
+| Network scanning and service enumeration (Nmap) | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
+| Interpreting scan results to identify risky services | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
 | Networking fundamentals (TCP/IP, IP addressing, switching and routing) | Working knowledge | CCNA: Introduction to Networks, HTB Network Foundations |
 | Security fundamentals (threats, risk, controls) | Working knowledge | CompTIA Security+, HTB Introduction to Information Security |
-| Linux basics | Working knowledge | Degree coursework and TryHackMe Linux room |
+| Linux basics | Working knowledge | Degree coursework, TryHackMe Linux room |
 | Technical workshops and customer system assessments | Confident | Experience at Esri Malaysia |
 
 ## Certifications and training
@@ -48,7 +46,20 @@ Levels: **Beginner** (learned and practised in guided settings), **Working knowl
 **Formal coursework:** MSc Cybersecurity, Universiti Malaya (in progress)
 
 ## Projects
-*Coming soon.*
+
+### 1. Virtual lab setup and Nmap service scan
+**Folder:** [projects/virtual-lab-setup](projects/virtual-lab-setup/)
+
+I built an isolated VirtualBox lab with Kali Linux and Metasploitable 2 on a host-only network, proved it had no internet access, and ran an Nmap service and version scan to identify exposed services and explain why they are risky.
+
+**Skills shown:** virtual lab setup, network isolation, Nmap service detection, interpreting scan results.
+
+### 2. [Second project title]
+**Folder:** [projects/second-project-folder](projects/second-project-folder/)
+
+[Two or three sentences: what you did, the environment, and what you found.]
+
+**Skills shown:** [skills this project demonstrates]
 
 ## Learning journey
 *Coming soon.*
