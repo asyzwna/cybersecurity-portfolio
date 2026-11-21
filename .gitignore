@@ -1,0 +1,24 @@
+# Secrets and credentials
+.env
+*.key
+*.pem
+*.pfx
+id_rsa*
+secrets.*
+credentials.*
+
+# Large binaries and lab files
+*.iso
+*.ova
+*.vmdk
+*.vdi
+*.pcap
+*.pcapng
+*.zip
+
+# Local and system files
+.DS_Store
+Thumbs.db
+.vscode/
+_site/
+.jekyll-cache/
