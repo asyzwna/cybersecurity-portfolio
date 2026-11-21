@@ -21,9 +21,13 @@ Levels: **Beginner** (learned and practised in guided settings), **Working knowl
 | Virtual lab setup and network isolation (VirtualBox, Kali Linux, Metasploitable 2) | Working knowledge | [Virtual lab project](projects/virtual-lab-setup/) |
 | Network scanning and service enumeration (Nmap) | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
 | Interpreting scan results to identify risky services | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
+| Email header and authentication analysis (SPF, DKIM, DMARC) | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
+| Phishing and business email compromise recognition | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
+| Incident reporting and recommended-action writing | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
 | Networking fundamentals (TCP/IP, IP addressing, switching and routing) | Working knowledge | CCNA: Introduction to Networks, HTB Network Foundations |
 | Security fundamentals (threats, risk, controls) | Working knowledge | CompTIA Security+, HTB Introduction to Information Security |
 | Linux basics | Working knowledge | Degree coursework, TryHackMe Linux room |
+| SIEM and endpoint monitoring (Wazuh) | Beginner | Cybersecurity and Network Analytics for Industry 4.0 Programme by SHRDC |
 | Technical workshops and customer system assessments | Confident | Experience at Esri Malaysia |
 
 ## Certifications and training
@@ -34,6 +38,7 @@ Levels: **Beginner** (learned and practised in guided settings), **Working knowl
 **In progress**
 - ISC2 Certified in Cybersecurity (CC), target date: December 2027.
 - TryHackMe Cyber Kill Chain room, target date: December 2026.
+- Cybersecurity and Network for Industry 4.0 Programme, SHRDC, expected completion: December 2026.
 
 **Training completed**
 - CCNA: Introduction to Networks, Cisco Networking Academy, 2021. [Verify on Credly](https://www.credly.com/badges/c50cebea-07a5-4f18-b834-2d4e88a65c4b)
