@@ -14,15 +14,19 @@ My Master's coursework includes Network Technology and Security, Advanced Networ
 
 ## Technical skills
 
+Levels: **Beginner** (learned and practised in guided settings), **Working knowledge** (can do it independently on routine tasks), **Confident** (can do it reliably and explain it to others).
+
 | Skill | Level | Evidence |
 |---|---|---|
-| Network scanning (Nmap) | [working knowledge] | [Nmap service scan project](projects/nmap-service-scan/) |
-| Virtual lab setup (VirtualBox/VMware, Kali Linux) | [working knowledge] | [Virtual lab setup project](projects/virtual-lab-setup/) |
-| Penetration testing methodology | [working knowledge] | [link to a project, once written] |
-| Python for security automation | [beginner] | [link to a project, once written] |
-| Networking fundamentals (TCP/IP, protocols) | [working knowledge] | Degree and coursework |
-| Security fundamentals (risk, controls, frameworks) | [working knowledge] | CompTIA Security+ |
-| System assessment and technical workshops (ArcGIS) | [confident] | Experience at Esri Malaysia |
+| Python for network security automation (Scapy) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
+| Network discovery and ARP analysis | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
+| Validating tool results (Nmap host discovery, packet capture analysis) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
+| Safe, scoped security tooling (input validation, rate limits, dry-run mode) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
+| Containerised lab environments (Docker Compose) | Beginner | [ARP device mapper](projects/arp-device-mapper/) |
+| Networking fundamentals (TCP/IP, IP addressing, switching and routing) | Working knowledge | CCNA: Introduction to Networks, HTB Network Foundations |
+| Security fundamentals (threats, risk, controls) | Working knowledge | CompTIA Security+, HTB Introduction to Information Security |
+| Linux basics | Working knowledge | Degree coursework and TryHackMe Linux room |
+| Technical workshops and customer system assessments | Confident | Experience at Esri Malaysia |
 
 ## Certifications and training
 
