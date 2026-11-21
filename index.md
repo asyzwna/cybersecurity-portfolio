@@ -5,7 +5,7 @@ title: Cybersecurity Portfolio
 
 Welcome to my cybersecurity portfolio.
 
-## About me#
+## About me
 I am a Master of Cybersecurity student at Universiti Malaya (UM). I completed my degree in Computer Science (Information Security) at Universiti Tun Hussein Onn Malaysia (UTHM), then worked as a Technology Engineer at Esri Malaysia, where I supported customer enablement through ArcGIS technology updates, workshops and system assessments.
 
 Working with real systems and clients showed me how much organisations rely on technology that must be secure, and that motivated me to specialise in cybersecurity. I returned to study so I can move from building and supporting systems to protecting them.
