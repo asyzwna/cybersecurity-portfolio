@@ -21,12 +21,11 @@ Levels: **Beginner** (learned and practised in guided settings), **Working knowl
 | Virtual lab setup and network isolation (VirtualBox, Kali Linux, Metasploitable 2) | Working knowledge | [Virtual lab project](projects/virtual-lab-setup/) |
 | Network scanning and service enumeration (Nmap) | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
 | Interpreting scan results to identify risky services | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
-| Email header and authentication analysis (SPF, DKIM, DMARC) | Beginner | Email threat investigation exercise (internship programme, Project 01) |
-| Phishing and business email compromise recognition | Working knowledge | Email threat investigation exercise (internship programme, Project 01) |
-| Networking fundamentals (TCP/IP, IP addressing, switching and routing) | Working knowledge | CCNA: Introduction to Networks, HTB Network Foundations |
-| Security fundamentals (threats, risk, controls) | Working knowledge | CompTIA Security+, HTB Introduction to Information Security |
+| Email header and authentication analysis (SPF, DKIM, DMARC) | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
+| Phishing and business email compromise recognition | Working knowledge | [Email threat investigation](projects/email-threat-investigation/) |
+| Networking fundamentals (TCP/IP, IP addressing, switching and routing) | Working knowledge | [CCNA: Introduction to Networks](https://www.credly.com/badges/c50cebea-07a5-4f18-b834-2d4e88a65c4b), HTB Network Foundations |
+| Security fundamentals (threats, risk, controls) | Working knowledge | [CompTIA Security+](https://www.credly.com/badges/e1575d7c-ad23-44ce-8a2c-f59b09e2adf5), HTB Introduction to Information Security |
 | Linux basics | Working knowledge | Degree coursework, TryHackMe Linux room |
-| SIEM and endpoint monitoring (Wazuh) | Beginner | Cybersecurity and Network Analytics for Industry 4.0 Programme by SHRDC |
 | Technical workshops and customer system assessments | Confident | Experience at Esri Malaysia |
 
 ## Certifications and training
