@@ -66,7 +66,20 @@ I analysed 13 emails from a fictional finance executive's mailbox, checking head
 **Skills shown:** email header and authentication analysis, phishing and business email compromise recognition, indicator collection, incident reporting.
 
 ## Learning journey
-*Coming soon.*
+
+Moving from supporting customer systems to studying cybersecurity has changed how I approach technology. I now ask how a system could be attacked and how it should be defended.
+
+In my virtual lab, I built an isolated VirtualBox network with Kali Linux and a deliberately vulnerable Metasploitable 2 machine, both on a host-only adapter. I confirmed the two machines could reach each other with ping, then proved the lab was isolated when Kali could not reach google.com. I then ran an Nmap service and version scan against the target, which found 23 open ports, including FTP, Telnet and a service Nmap described as a root shell. What I took from this is that a version scan turns a list of open ports into something I can reason about, because it names the software and its version and shows what to check and patch first.
+
+In the network monitoring and tools topic, I learned how analysts see what is happening on a network and on endpoints. In my home lab, I used Wireshark to monitor live traffic, which let me look at the packets behind the activity on my network. Analysts use the same approach to spot unusual communication, such as a compromised computer contacting an unknown external address. I also learned how Wazuh collects logs and raises alerts on events such as a new user account or a changed system file. Separately, in a Wazuh course, I reviewed threat-hunting events, fixed a failed configuration check and confirmed with a vulnerability rescan that an issue was resolved. What I took from this is that monitoring and fixing belong together: an alert only matters if someone investigates it and checks that the fix worked.
+
+One thing went wrong when I switched my VM to the host-only adapter and did not restart it. I expected the lab to be isolated, but the VM could still reach the internet. I checked the network connection and found it was still using NAT, so my change had not taken effect. I shut the VM down, set the adapter to host-only again and started it. Afterwards the internet test failed as it should, which confirmed that the lab was isolated. The lesson is that a setting changed in VirtualBox is not proof that it is active. I now test the behaviour, for example by trying to reach an external website, before I trust a setup.
+
+One tool I still find challenging is GNS3, the network emulator. The hardest part is getting the device images to work: an image has to be obtained legitimately, imported correctly and compatible with the emulator before a device will start, and when one fails it is not always clear why. To improve, I am learning from the official GNS3 documentation and from community forums, and I am applying what I learn in a course assignment that uses GNS3.
+
+My goal is to build a small GNS3 topology of my own, with at least two devices communicating, by 31 January 2027. I will measure this by publishing a short write-up in this portfolio with a topology screenshot and successful ping results between the devices.
+
+Overall, these experiences taught me to check my assumptions with evidence, a habit I want to carry into my work as a cybersecurity consultant.
 
 ## Career objective
 My goal is to become a cybersecurity consultant who helps organisations assess and strengthen the security of their systems. My background in information security, my CompTIA Security+ certification, and my experience delivering workshops and system assessments for customers at Esri Malaysia give me a view of both the technical and the client-facing side of this work.
@@ -79,4 +92,7 @@ My next steps are:
 I also want to build my communication and reporting skills, since a consultant must explain technical risks clearly to non-technical decision makers.
 
 ## Contact information
-*Coming soon.*
+
+- **Email:** syazweenalyaa@gmail.com
+- **GitHub:** [github.com/asyzwna](https://github.com/asyzwna)
+- **LinkedIn:** [linkedin.com/in/alya-syazweena](https://www.linkedin.com/in/alya-syazweena)
