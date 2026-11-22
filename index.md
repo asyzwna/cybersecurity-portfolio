@@ -21,9 +21,8 @@ Levels: **Beginner** (learned and practised in guided settings), **Working knowl
 | Virtual lab setup and network isolation (VirtualBox, Kali Linux, Metasploitable 2) | Working knowledge | [Virtual lab project](projects/virtual-lab-setup/) |
 | Network scanning and service enumeration (Nmap) | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
 | Interpreting scan results to identify risky services | Beginner | [Virtual lab project](projects/virtual-lab-setup/) |
-| Email header and authentication analysis (SPF, DKIM, DMARC) | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
-| Phishing and business email compromise recognition | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
-| Incident reporting and recommended-action writing | Beginner | [Email threat investigation](projects/email-threat-investigation/) |
+| Email header and authentication analysis (SPF, DKIM, DMARC) | Beginner | Email threat investigation exercise (internship programme, Project 01) |
+| Phishing and business email compromise recognition | Working knowledge | Email threat investigation exercise (internship programme, Project 01) |
 | Networking fundamentals (TCP/IP, IP addressing, switching and routing) | Working knowledge | CCNA: Introduction to Networks, HTB Network Foundations |
 | Security fundamentals (threats, risk, controls) | Working knowledge | CompTIA Security+, HTB Introduction to Information Security |
 | Linux basics | Working knowledge | Degree coursework, TryHackMe Linux room |
@@ -59,12 +58,12 @@ I built an isolated VirtualBox lab with Kali Linux and Metasploitable 2 on a hos
 
 **Skills shown:** virtual lab setup, network isolation, Nmap service detection, interpreting scan results.
 
-### 2. [Second project title]
-**Folder:** [projects/second-project-folder](projects/second-project-folder/)
+### 2. Email threat investigation
+**Folder:** [projects/email-threat-investigation](projects/email-threat-investigation/)
 
-[Two or three sentences: what you did, the environment, and what you found.]
+I analysed 13 emails from a fictional finance executive's mailbox, checking headers, SPF, DKIM and DMARC results, links, attachments and social-engineering techniques, and classified each as safe, medium risk or suspicious. I also compiled the indicators of compromise and recommended actions.
 
-**Skills shown:** [skills this project demonstrates]
+**Skills shown:** email header and authentication analysis, phishing and business email compromise recognition, indicator collection, incident reporting.
 
 ## Learning journey
 *Coming soon.*
